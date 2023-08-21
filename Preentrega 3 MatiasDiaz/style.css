@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(2, 10, 37);
+    height: 20vh;
+    position: sticky;
+    width: 100%;
+    
+}
+
+nav button:hover{
+    transition: all 1s;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    box-shadow: 0 40px white;
+}
+
+nav a img{
+    width: 120px;
+    margin-left: 50px;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+nav ul li,a{
+    margin-right: 20px;
+}
+
+nav button,a{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.active{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    box-shadow: 0 40px white;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.display-none{
+    display: none;
+}
+
+.cartel-bienvenida{
+    background-color: skyblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 50vh;
+    padding: 80px;
+    position: fixed;
+    left: 15%;
+    margin: 50px;
+   
+}
+
+.cartel-bienvenida i{
+    position: relative;
+    left: 370px;
+    top: -30px;
+    cursor: pointer;
+}
+
+.cartel-bienvenida input{
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+
+.cartel-bienvenida button{
+    border-radius: 8px;
+    padding: 8px;
+    padding-inline: 20px;
+    background-color: rgb(31, 31, 228);
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.cartel-bienvenida form{
+    display: flex;
+}
+
+#parrafo-abajo{
+    color: red;
+}
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.modo-oscuro{
+    background-color: rgb(7, 7, 48);
+    color: white;
+}
+
+.luna{
+    display: flex;
+    justify-content: end;
+    margin: 20px 30px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.sol{
+    display: flex;
+    justify-content: end;
+    margin: 20px 30px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+main h1{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.main-bienvenida{
+    margin-left: 30px;
+    margin-top: 30px;
+    color: orange;
+    font-size: 2rem;
+}
+
+.productos-por-separado{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+}
+
+.productos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    padding: 40px;
+    gap: 10px;
+    row-gap: 50px;
+    margin-top: 30px;
+}
+
+.productos-por-separado h2{
+    font-size: 1rem;
+    margin-left: 9px;
+}
+
+.productos-por-separado p{
+    margin-left: 9px;
+}
+
+.btn-productos{
+    border: none;
+    border-radius: 9px;
+    color: black;
+    background-color: yellow;
+    padding: 9px;
+    margin-top: 10px;
+    max-width: 95%;
+}
+
+.btn-productos:hover{
+    background-color: black;
+    color: white;
+    transition: all 1s;
+}
+
+.productos-por-separado img{
+    width: 100%;
+    height: 299px;
+    object-fit: cover;
+    border-radius: 8px;
+    
+}
+
+
+   
