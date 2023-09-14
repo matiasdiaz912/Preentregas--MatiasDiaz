@@ -64,6 +64,23 @@ nav button,a{
     cursor: pointer;
 }
 
+.mas--productos{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(19, 19, 119);
+    display: none;
+}
+
+.mas--productos button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
 .active{
     background-color: white;
     color: black;
@@ -129,27 +146,40 @@ nav button,a{
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
+.main-iconos{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: end;
+}
+
 .modo-oscuro{
     background-color: rgb(7, 7, 48);
     color: white;
+    transition: all .5s;
 }
 
-.modos{
-    display: flex;
-    justify-content: end;
-    margin: 20px 30px;
-    font-size: 2rem;
-    cursor: pointer;
+.colorClaro{
+    color: white;
 }
+
 
 .boton-modos{
-    margin: 20px 30px;
-    font-size: 2rem;
+    margin: 10px 25px;
+    font-size: 1.5rem;
     cursor: pointer;
     background-color: transparent;
     border: none;
-    background-color: aqua;
 }
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
 
 main h1{
     margin-top: 40px;
@@ -199,7 +229,6 @@ main h1{
     background-color: yellow;
     padding: 9px;
     margin-top: 10px;
-    max-width: 95%;
 }
 
 .btn-productos:hover{
@@ -216,5 +245,16 @@ main h1{
     
 }
 
+.padding{
+    padding-right: 300px;
+    transition: all 1s;
+}
+
+.sinPadding{
+    padding-right: 0;
+    transition: all 1s;
+}
+
 
    
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */

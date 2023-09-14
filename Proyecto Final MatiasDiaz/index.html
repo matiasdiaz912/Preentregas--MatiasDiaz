@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Store</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/carrito.css">
+</head>
+<body>
+
+    <!--Inicia Nav-->
+    <nav>
+
+        <a href="index.html">
+            <img src="./img/Logo.avif" alt="Logo de nuestra marca">
+        </a>
+        <ul>
+            <li>
+                <button class="active-hover-js active"  id="todos-completo">Todos</button>
+            </li>
+            <li>
+                <button class="active-hover-js" id="Heladeras">Heladeras</button>
+            </li>
+            <li>
+                <button class="active-hover-js" id="Celulares">Celulares</button>
+            </li>
+            
+            <li>
+                <button class="active-hover-js" id="Mas Productos">Mas Productos</button>
+            </li>
+                <ul class="mas--productos">
+            <li>
+                <button class="active-hover-js" id="Mas Productos">Tablets</button>
+            </li>
+            <li>
+                <button class="active-hover-js" id="Mas Productos">Licuadoras</button>
+            </li>
+            <li>
+                <button class="active-hover-js" id="Mas Productos">Batidoras</button>
+            </li>
+        </ul>
+
+        <li>
+            <a href="">Contacto</a>
+         </li>
+        </ul>
+
+    </nav>
+ 
+    <!--Ends Nav-->
+
+    <div class="cartel-bienvenida" id="eliminar-cartel">
+        <i class="bi bi-x-lg" id="sacar-cartel"></i>
+        <h1>Hola te damos la bienvenida a nuestra tienda</h1>
+        <p>Ingrese su nombre</p>
+    <form id="enviar-nombre">
+        <input type="text" placeholder="Ingrese su nombre">
+        <button type="submit">Enviar</button>
+    </form>
+     <p id="parrafo-abajo"></p>
+     <p>Si no contesta la pagina, Refresque la pagina para ver si pudo acceder</p>
+    </div>
+
+    <div class="main-iconos">
+    
+        <div class="modos">
+            <button id="cambiar-modo" class="boton-modos"><i class="bi bi-moon-fill" id="modo-dark"></i></button>
+        </div>
+    
+        <button class="carrito" id="carritoJS"><i class="bi bi-cart-plus"></i></button>
+         
+        <div class="carritoGeneral" id="desplegarCarrito">
+           
+        <button class="carrito--icono__cerrar" id="cerrar-carrito"><i class="bi bi-x-lg"></i></button>
+           
+        <div id="carritoenCSS" class="display-none">
+
+        
+        </div>
+        <div class="display-none" id="PrecioFinal"></div>
+        <div class="display-none" id="btn-carrito"></div>
+    
+       </div>
+
+    <!--Inicia Main-->
+ <main id="desplazar--productos">
+    
+        
+        <h2 id="bienvenida" class="main-bienvenida"></h2>
+     
+       <h1 id="titulo-variado">Todos Los Productos</h1>
+      <div id="productos" class="productos">
+       
+       </div> 
+ </main>
+
+<!-- <button id="boton">Click</button> -->
+
+    <!--Ends Main-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="module" src="main.js"></script>
+    <script type="module" src="carrito.js"></script>
+ </body>
+ </html>

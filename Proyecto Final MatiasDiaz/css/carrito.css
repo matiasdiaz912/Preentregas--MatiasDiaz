@@ -1,0 +1,125 @@
+.carrito--vacio{
+    color: black;
+    position: absolute;
+    top: 40vh;
+    left: 120px;
+    font-weight: 500;
+}
+
+.carritoEnCss{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 10px;
+   
+}
+
+.carritoEnCss img{
+    width: 100px;
+}
+
+.parrafo-carrito h2{
+    font-size: 20px;
+}
+
+
+
+.parrafo-carrito{
+   margin-left: 10px;
+}
+
+.parrafo-carrito p{
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.botonCompras{
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.botonCompras:hover{
+    color: black;
+    background-color: white;
+}
+
+.botonesCarrito{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5px;
+    padding: 0 10px;
+}
+
+.precioFinal{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.trash{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.carrito--icono__cerrar.visible{
+    visibility: visible;
+    opacity: 1;
+}
+
+.carrito.invisible{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.carrito{
+    padding-right: 50px;
+    font-size: 1.7rem;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    visibility: visible;
+    opacity: 1;
+}
+
+.carritoDesplegado{
+    background-color: orange;
+    width: 30vw;
+    height: 100%;
+    position: absolute;
+    top: 200px;
+    right: 0;
+    transition: all 1s;
+}
+
+.carrito--icono__cerrar{
+    visibility: hidden;
+    opacity: 0;
+
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: block;
+}
+
+.carrito-lleno{
+    margin-right: 40px;
+    margin-bottom: -40px;
+   background-color: yellow;
+   color: black;
+}

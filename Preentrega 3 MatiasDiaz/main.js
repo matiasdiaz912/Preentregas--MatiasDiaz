@@ -3,9 +3,8 @@ let sacarCartel = document.getElementById("sacar-cartel")
 let eliminarCartel = document.getElementById("eliminar-cartel")
 let parrafoDeAbajo = document.getElementById("parrafo-abajo")
 let bienvenida = document.getElementById("bienvenida")
-let modoLight = document.getElementById("modo-light")
-let modoDark = document.getElementById("modo-dark")
-let body = document.body
+let body = document.querySelector("body")
+let cambiarModo = document.getElementById("cambiar-modo")
 
 
 
@@ -36,11 +35,25 @@ if(traerNombreDelLs === "" || traerNombreDelLs.includes("@")){
 }
 
 
-    modoLight.addEventListener("click", () => {
-        body.classList.remove("modo-oscuro")
-    })
 
-   modoDark.addEventListener("click", () => {
+function activarModoOscuro (){
         body.classList.add("modo-oscuro")
+        cambiarModo.innerHTML =  `<button id="cambiar-modo" class="boton-modos white"></i></button><i class="bi bi-sun-fill"></i>`
+        
+        localStorage.setItem("modo-oscuro", "activado")
+}
 
-   })
+function desactivarModoOscuro (){
+         body.classList.remove("modo-oscuro")
+         cambiarModo.innerHTML = ""
+         cambiarModo.innerHTML =  `<button id="cambiar-modo" class="boton-modos"><i class="bi bi-moon-fill"></i></button>`
+        localStorage.setItem("modo-oscuro", "desactivado")
+}
+
+cambiarModo.addEventListener("click", () => {
+    body.classList.contains("modo-oscuro") ? desactivarModoOscuro() : activarModoOscuro()
+})
+
+
+
+
