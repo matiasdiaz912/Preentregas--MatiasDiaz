@@ -1,0 +1,14 @@
+[
+    {"id": 1,"Nombre": "Celular Samsung Galaxy A04e 64/3gb Copper - Multipoint", "Precio": 80000, "imagen": "./img/img-main1.jpg",  "Marca": "Samsung", "Categoria": "Celulares", "cantidad": 1},
+    {"id": 2,"Nombre": "Iphone 14 Max pro ||  12 y 18 cuotas sin interes", "Precio": 740000 , "imagen": "./img/img.main2.jpg",  "Marca": "Apple", "Categoria": "Celulares", "cantidad": 1},
+    {"id": 3,"Nombre": "Celular Motorola E13 64GB Natural | Cuotas sin interes", "Precio": 75000 , "imagen": "./img/img.main3.jpg",  "Marca": "Motorola", "Categoria": "Celulares", "cantidad": 1},
+    {"id": 4,"Nombre": "Heladeras Samsung: la gama completa | Samsung Argentina","Precio": 300000 , "imagen": "./img/img.main6.avif",  "Marca": "Samsung", "Categoria": "Heladeras", "cantidad": 1},
+    {"id": 5,"Nombre": "HELADERA DREAN 364 LTRS BLANCA (HDR370F11S)", "Precio": 255000 , "imagen": "./img/img-main4.jpg",  "Marca": "Sbs Dream", "Categoria": "Heladeras", "cantidad": 1},
+    {"id": 6,"Nombre": "Heladera SBS Drean YEP26FGTFSS 719 Lts Inoxidable", "Precio": 750000 , "imagen": "./img/img.main5.jpg",  "Marca": "Sbs Dream", "Categoria": "Heladeras", "cantidad": 1},
+    {"id": 7,"Nombre": "Tablets Smart Tab Serie Yoga | 12 cuotas sin interes", "Precio": 200000 ,  "imagen": "./img/img-main7.jpg",  "Marca": "Smart Tab", "Categoria": "Mas Productos", "cantidad": 1},
+    {"id": 8,"Nombre": "Tablet Samsung Galaxy Tab S6 Lite 10.4 64gb Y 4gb Ram Nox","Precio": 150000 , "imagen": "./img/img-main8.webp",  "Marca": "Samsung", "Categoria": "Mas Productos", "cantidad": 1},
+    {"id": 9,"Nombre": "Licuadora de Pie Oster 1,5Lts 3 Velocidades BLSTPYG1211NBG", "Precio": 45000 , "imagen": "./img/img-main9.jpg",  "Marca": "Oster", "Categoria": "Mas Productos", "cantidad": 1},
+    {"id": 10,"Nombre": "Licuadora Midea 800W INOX | MIDEA | cuotas sin interes","Precio": 30000, "imagen": "./img/img-main10.jpg",  "Marca": "Midea", "Categoria": "Mas Productos", "cantidad": 1},
+    {"id": 11,"Nombre": "Batidora Amasadora Philips HR7912/90 || cuotas s/ interes", "Precio": 60000, "imagen": "./img/batidoras.jpg",  "Marca": "Philips", "Categoria": "Mas Productos", "cantidad": 1},
+    {"id": 12,"Nombre": "Batidora Amasadora Philips H832947890 || cuotas s/interes","Precio": 60000, "imagen": "./img/batidoras1.jpg",  "Marca": "Philips", "Categoria": "Mas Productos", "cantidad": 1}
+]

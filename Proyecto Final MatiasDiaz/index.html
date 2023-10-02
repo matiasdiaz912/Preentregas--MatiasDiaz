@@ -61,35 +61,49 @@
         <button type="submit">Enviar</button>
     </form>
      <p id="parrafo-abajo"></p>
-     <p>Si no contesta la pagina, Refresque la pagina para ver si pudo acceder</p>
+     <p>Cuando termine establezca su monedero</p>
     </div>
 
-    <div class="main-iconos">
+    <div class="display-none" id="div--monedero">
+         <i class="bi bi-x-lg" id="sacar--cartel--monedero"></i>
+        <h1>Ingrese el monto de su monedero</h1>
+        <form id="enviar-monedero">
+            <input type="number" placeholder="Ingrese el monto">
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="parrafoAbajo" class="parrafoAbajoMonedero">
+
+        </p>
+    </div>
+
+<div class="main-iconos">
     
         <div class="modos">
             <button id="cambiar-modo" class="boton-modos"><i class="bi bi-moon-fill" id="modo-dark"></i></button>
         </div>
     
         <button class="carrito" id="carritoJS"><i class="bi bi-cart-plus"></i></button>
-         
-        <div class="carritoGeneral" id="desplegarCarrito">
+        <button class="wallet" id="monedero"><i class="bi bi-wallet2"></i></button>
+
+    <div class="carritoGeneral" id="desplegarCarrito">
            
+        <div id="carritoSuperior">
         <button class="carrito--icono__cerrar" id="cerrar-carrito"><i class="bi bi-x-lg"></i></button>
+        </div>
            
         <div id="carritoenCSS" class="display-none">
 
         
         </div>
+   
         <div class="display-none" id="PrecioFinal"></div>
         <div class="display-none" id="btn-carrito"></div>
-    
-       </div>
+    </div>
+</div>
 
     <!--Inicia Main-->
  <main id="desplazar--productos">
-    
-        
-        <h2 id="bienvenida" class="main-bienvenida"></h2>
+    <h2 id="bienvenida" class="main-bienvenida"></h2>
      
        <h1 id="titulo-variado">Todos Los Productos</h1>
       <div id="productos" class="productos">
@@ -102,7 +116,8 @@
     <!--Ends Main-->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
-    <script type="module" src="main.js"></script>
     <script type="module" src="carrito.js"></script>
+    <script type="module" src="main.js"></script>
+  
  </body>
  </html>

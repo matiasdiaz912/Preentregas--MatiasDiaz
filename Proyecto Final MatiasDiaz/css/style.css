@@ -148,7 +148,7 @@ nav button,a{
 
 .main-iconos{
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     flex-direction: column;
     align-items: end;
 }
@@ -258,3 +258,74 @@ main h1{
 
    
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.wallet{
+    border: none;
+    color: black;
+    background-color: transparent;
+    padding-right: 50px;
+    padding-top: 25px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.walletClara{
+    border: none;
+    color: white;
+    background-color: transparent;
+    padding-right: 50px;
+    padding-top: 25px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.cartel-monedero{
+    background-color: orange;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 30vh;
+    padding: 30px; 
+    position: fixed;
+   left: 28%;
+   top: 25%;
+   
+}
+
+.cartel-monedero h1{
+    color: black;
+    margin-bottom: 40px;
+}
+
+.cartel-monedero i{
+    position: relative;
+    left: 250px;
+    top: -20px;
+    cursor: pointer;
+}
+
+.cartel-monedero input{
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+
+.cartel-monedero button{
+    border-radius: 8px;
+    padding: 8px;
+    padding-inline: 20px;
+    background-color: rgb(31, 31, 228);
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.cartel-monedero form{
+    display: flex;
+}
+
+.parrafoAbajoMonedero{
+    color: red;
+}
