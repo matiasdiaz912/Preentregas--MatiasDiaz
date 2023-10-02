@@ -13,7 +13,7 @@
 //     {id: 12,Nombre: "Batidora Amasadora Philips H832947890 || cuotas s/interes",Precio: 60000, imagen: "./img/batidoras1.jpg",  Marca: "Philips", Categoria: "Mas Productos", cantidad: 1},
 // ]
 
-
+ import { todosLosProductos } from "./main.js";
 
 
 let desplegarCarrito = document.getElementById("desplegarCarrito")

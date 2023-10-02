@@ -16,7 +16,7 @@ let enviarMonedero = document.getElementById("enviar-monedero")
 let parrafoAbajo = document.getElementById("parrafoAbajo")
 let carritoSuperior = document.getElementById("carritoSuperior")
 
-const todosLosProductos = [
+export const todosLosProductos = [
     {id: 1,Nombre: "Celular Samsung Galaxy A04e 64/3gb Copper - Multipoint", Precio: 80000, imagen: "./img/img-main1.jpg",  Marca: "Samsung", Categoria: "Celulares", cantidad: 1},
     {id: 2,Nombre: "Iphone 14 Max pro ||  12 y 18 cuotas sin interes", Precio: 740000 , imagen: "./img/img.main2.jpg",  Marca: "Apple", Categoria: "Celulares", cantidad: 1},
     {id: 3,Nombre: "Celular Motorola E13 64GB Natural | Cuotas sin interes", Precio: 75000 , imagen: "./img/img.main3.jpg",  Marca: "Motorola", Categoria: "Celulares", cantidad: 1},
@@ -32,7 +32,7 @@ const todosLosProductos = [
 ]
 
 
-// import { todosLosProductos } from "./carrito.js";
+
 import { carritoEnCSS } from "./carrito.js";
 import { botonesCarrito } from "./carrito.js";
 import { carritoLleno } from "./carrito.js";
